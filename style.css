@@ -63,7 +63,7 @@ footer {
   margin-left: 3px;
 }
 
-.nav-bar {
+.nav {
   flex: 0 0 auto;
   color: rgba(0, 0, 0, 0.87);
   font-size: 13px;
@@ -79,7 +79,7 @@ footer {
   align-items: center;
 }
 
-.nav-bar > ul > li {
+.nav > ul > li {
   display: inline-block;
   margin-left: 15px;
 }
@@ -111,7 +111,17 @@ footer {
   background-color: #5c96f5;
 }
 
-.search @media (max-width: 850px) {
+.search {
+  flex: 1 0 auto;
+  width: 100vw;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 850px) {
   .footer {
     font-size: 14px;
   }
