@@ -144,7 +144,9 @@ footer {
 
 .search-container {
   display: flex;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
   /* position: absolute; */
 }
 
@@ -163,12 +165,28 @@ footer {
   outline: none;
 }
 
-.search-buttons {
-  width: 100%;
+.search_button_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
+}
+.search-button {
+  /* width: 100%; */
+  font-size: 16px;
+  width: 150px;
   display: flex;
   justify-content: center;
-}
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 
+}
+.search-button:hover {
+  border: 1px solid grey;
+}
 .search-text {
   margin-top: 28px;
   text-align: center;

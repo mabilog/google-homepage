@@ -1,2 +1,7 @@
-# google-homepage
-https://www.theodinproject.com/courses/foundations/lessons/html-css
+HTML and CSS practice
+
+Learning Objectives:
+
+HTML
+CSS
+UX design
